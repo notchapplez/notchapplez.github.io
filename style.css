@@ -1,10 +1,103 @@
-img {
+@font-face {
+    font-family: JBMono;
+    src: url("fonts/JetBrainsMono-Regular.ttf");
+}
+
+h1 {
+    color: rgb(238, 232, 232);
+    font-family: JBMono;
     text-align: center;
+    margin-top: 10px; 
+    text-align: center;
+    font-size: xx-large;
 }
+
 body {
-  text-align: center;
-  align-items: center;
-  font-family: sans-serif;
-  background: white;
-  color: #ff5050;
+    background-image: linear-gradient(to right, #5985a7, #367f7f, #4C9F70);
+    background-size: 110%;
+    padding-bottom: 80px;
+    scroll-behavior: smooth;
+    
 }
+
+sl-checkbox {
+    font-family: JBMono;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+.hc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    scale: 50%;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 120px 20px 60px 20px;
+}
+
+h3 {
+    color: rgb(238, 232, 232);
+    border: 2px dashed rgb(238, 232, 232);
+    font-family: JBMono;
+    border-radius: 20px;
+    padding: 13px 27px;
+    display: inline-block;
+    margin: 0;
+}
+
+ul {
+    list-style:decimal;
+    align-items: center;
+}
+
+/* navigation (is a hell)*/
+.navbar {
+    background-image: linear-gradient(to right, #5985a7, #367f7f, #4C9F70);
+    background-size: 110%;
+    overflow: hidden;
+    position: sticky;
+    bottom: 0;
+    width: 100%; 
+    left: 0; 
+}
+       
+.navbar a {
+  float:left;
+  display:block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: JBMono;
+  border: 2px solid rgb(76, 17, 104);
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.navbar a:hover {
+    background-image: linear-gradient(to right, #5985a7, #367f7f, #4C9F70);
+    color: whitesmoke
+}
+
+.navbar a.active {
+    background-image: linear-gradient(to right, #5985a7, #367f7f, #4C9F70);
+    color: white;
+}
+
+/* navigation goes until here*/
+/* hell I want that rpi oooh juicy */
+

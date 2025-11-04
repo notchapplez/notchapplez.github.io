@@ -1,0 +1,23 @@
+@font-face {
+    font-family: JBMono;
+    src: url("fonts/JetBrainsMono-Regular.ttf");
+}
+
+body {
+    background-image: linear-gradient(to right, #5985a7, #367f7f, #4C9F70);
+    background-size: 110%;
+}
+
+.hc {
+  align-items: center;
+  text-align: center;
+  scale: 50%;
+}
+
+p {
+    color:whitesmoke;
+    text-align: center;
+    margin-top: 100px;
+    font-family: JBMono;
+    font-size:xx-large;
+}
